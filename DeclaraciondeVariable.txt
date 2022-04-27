@@ -1,0 +1,16 @@
+para declarar variables utiliza 2 palabras clave diferentes val y var
+
+val.- se utiliza para variables cuyo valor va a ser fijo
+
+var.- son las variables cuyo valor puede variar
+
+Ej
+// Se crea la variable, se asigna un nombre, se coloca el tipo de dato y por ultimo se asigna el valor 
+var num: Int = 24
+// Aca se cambia el valor
+num = 48 
+
+Sin embargo hay veces que no quieres el valor se altere. Si quieres asegurarte de que {nombre} siempre retenga el valor {Breider loreto} declaras {miNombre} mediante la palabra clave val
+Ej
+//
+val miNombre: String = "Breider Loreto"
