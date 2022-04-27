@@ -1,0 +1,26 @@
+En muchos casos necesitaremos combinar strings con variables, variables con variables o strings con strings. A eso lo denominamos concatenar,  y existen dos formas de realizar esto en Kotlin. 
+
+Podemos concatenar utilizando el signo + o a través de String templates.
+
+El String templates permite que la concatenacion sea mas sencilla de leer. En esta caso las variables las podemos insertar directamente en el string usando el simbolo $
+
+codigo - Con el signo +
+
+fun main(args: Array<String>) {
+    val nombre = "Elon "
+    val apellido = "Musk"
+    println(nombre + apellido)
+}
+
+codigo - Con el String templates
+
+fun main(args: Array<String>) {
+    val nombre = "Elon "
+    val apellido = "Musk"
+    val x = 4
+    val y = 8
+    val suma = La suma de $x y $y da como resultado ${x + y}
+    println("$nombre$apellido Es un crack")
+}
+
+
