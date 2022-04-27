@@ -1,0 +1,35 @@
+En kotlin se declaran variables usando las instrucciones val y var
+
+Utilizaremos var si queremos no queremos que el valor de la variable sea constante
+
+Utilizaremos val si queremos que el valor de la variable sea constante 
+
+Tipos de datos que existen
+
+Para numeros enteros
+- Byte
+- Int
+- long 
+- short
+
+Para Caracteres
+- String
+
+Para Numeros decimales
+- double
+- float
+
+Como se declara
+
+Se declara con la instruccion reservada var o val, seguido del nombre que le queramos asignar a la variable: Tipo de dato que va a contener
+
+codigo
+
+fun main() {                      
+	var pts: Int 
+		pts = 24
+	val pi:Double  
+		pi = 3.14159265
+    println(pts)
+    println(pi)
+}
