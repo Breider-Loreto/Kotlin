@@ -1,0 +1,12 @@
+Creá 2 variables, asignales diferentes valores y utiliza un condicional para informar por consola cuál de los dos números es más grande.
+
+Codigo
+
+fun main(args: Array<String>) {
+    var num = 25
+    var num2 = 30
+    if (num > num2) 
+        println("$num es el numero mayor")
+    else 
+        println("$num2 Es el numero mayor")
+}
