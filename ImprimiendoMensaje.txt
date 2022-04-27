@@ -1,0 +1,12 @@
+Tenemos print("mensaje") y println("Mensaje")
+
+Ambas instrucciones nos generan un mensaje por pantalla pero println("") ademas de mostrarnos el texto posiciona el cursor en una nueva linea, generando un salto de linea cada vez que llamamos esta funcion
+
+codigo
+
+fun main (parametro: Array<String>) {
+    print ("Hola, ")
+    print ("como estas?")
+    println("Bien")
+    println("Y vos?")
+}
