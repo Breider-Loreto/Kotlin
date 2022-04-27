@@ -1,0 +1,24 @@
+Desafío complementario 2
+
+
+En este desafío tenés que escribir el código para mostrar el resultado de las siguientes operaciones por consola:
+
+Asignar el resultado de la suma de 1 más 2 más 3 a una variable llamada “a”.
+
+Decrementar en uno la variable “a”.
+
+Duplicar el valor de la variable ”a” usando el operador de asignación compuesto.
+
+Finalmente concatenar el texto “Maradona usaba la ” con el valor de la variable llamada “a
+
+codigo
+
+fun main(args: Array<String>) {
+    var a = 1 + 2 + 3
+    println(a)
+    a--
+    println(a)
+    a += a
+    println(a)
+    println("Maradona usaba la $a")
+}
