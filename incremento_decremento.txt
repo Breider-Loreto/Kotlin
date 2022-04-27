@@ -1,0 +1,15 @@
+a++ incrementa el valor en 1
+a-- decrementa el valor en 1
+
+codigo
+
+fun main() {                      
+	
+    var a= 4
+    println(a)
+    a++
+    println(a)
+    a--
+    println(a)
+
+}
