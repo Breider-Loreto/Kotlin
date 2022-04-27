@@ -1,0 +1,6 @@
+Nos facilitan la vida
+
+a+=b == a = a + b
+a-=b == a = a - b 
+a*=b == a = a * b
+a/=b == a = a / b 
