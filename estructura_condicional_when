@@ -1,0 +1,30 @@
+Estructura condicional when
+
+When (traducido en español como ‘Cuando’) es una estructura condicional al igual que if que podemos usar en nuestros programas para realizar una acción en el caso de que se cumpla una condición determinada. 
+
+En la clase pasada resolvimos el siguiente ejercicio en el cual a partir de un determinado número debíamos informar si ese número era positivo, negativo o igual a 0 (cero):
+
+Usando When el ejercicio se veria asi 
+
+when {
+    numero > 0 -> println("Es un número positivo")
+    numero < 0 -> println("Es un número negativo")
+    else -> println("El número es 0")
+}
+
+Lo que se desprende del código resuelto con la estructura when es que esta estructura condicional es más concisa y fácil de entender que una cadena de if-else anidados.
+
+Con argumentos 
+
+Se trata de la misma estructura, pero con diferencia de que se le agrega un argumento. El argumento se pasa despues de la palabra reservada when 
+
+val x = 7
+when (x) {
+    1 -> print("x es igual a 1")
+    2 -> print("x es igual a 2")
+    else -> { // Podemos ingresar más de una línea de código
+        print("x no es 1 ni 2")
+    }
+}
+
+En caso de que la condicion de que x no sea igual ni a 1 ni a 2 se pasa al bloque else. Este bloque no es obligatorio 
