@@ -1,0 +1,28 @@
+Cuando queramos tomar mas de un camino si no se cumple la condicion principal debemos utilizar estructuras condicionales anidadas 
+
+En kotlin
+
+if (condicion) {
+    // código a ejecutar si se cumple la condición 
+} else if (condicion 2) {
+    /* esto se ejecuta si no se cumple la condición pero se cumple la condición 2 */
+} else if (condicion 3) {
+    /* esto se ejecuta si no se cumple la condición, ni la condición 2 pero se cumple la condición 3 */
+} else {
+    /* esto se ejecuta si no se cumple ninguna de las condiciones anteriores */
+}
+
+Un ejemplo real seria asi 
+
+fun main(args: Array<String>) {
+    val numero = 5
+    if (numero > 0) 
+        println("Es un número positivo")
+    else if (numero < 0) 
+        println("Es un número negativo")
+    else 
+        println("El número es 0")
+}
+
+a esto se le denomina estructuras anidadas
+
