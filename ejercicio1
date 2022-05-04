@@ -1,0 +1,16 @@
+// Ingresa tres notas de un alumno en tres variables distintas, calcula su promedio y mostrá por consola alguno de estos mensajes:
+fun main(args: Array<String>) {
+    var nota = 3
+    var nota1 = 10
+    var nota2 = 7
+    val promedio = (nota + nota1 + nota2) / 3
+    if ((promedio >=7) && (promedio <=10))
+    	println("Promocionado")
+    else if ((promedio >=4) && (promedio < 7))
+    	println("Aprobado")
+    else if ((promedio >=0) && (promedio < 4))
+    	println("Reprobado")
+    else println("Valor invalido")
+    	println("Con: " + promedio)
+    
+} 
