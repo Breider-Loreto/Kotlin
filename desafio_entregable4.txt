@@ -1,0 +1,13 @@
+// Ingresa tres notas de un alumno en tres variables distintas, calcula su promedio y mostrá por consola alguno de estos mensajes:
+fun main(args: Array<String>) {
+    var dia = 9
+	when (dia) {
+        1 -> print("Es domingo")
+    	2 -> print("Es lunes")
+        3 -> print("Es martes")
+    	4 -> print("Es miercoles")
+        5 -> print("Es jueves")
+    	6 -> print("Es viernes")
+        7 -> print("Es sabado")
+    else -> println("Es un numero no valido")
+    }
