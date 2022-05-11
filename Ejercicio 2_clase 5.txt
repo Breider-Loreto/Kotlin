@@ -1,0 +1,17 @@
+fun main(args: Array<String>) {
+    var i = 1
+    var acum = 0
+    var acumM7 = 0 //mayores a 7
+    var	acumMe7 = 0 //menores a 7
+       do {
+           acum = acum + i
+        if (acum >= 7) {
+            acumM7++ }
+       	else if (acum < 7) { 	
+        	acumMe7++ }
+        i ++ 
+    } while (i <= 10)
+     	println("El total acumulado es: $acum")
+        println("Los numero mayores a 7 son: $acumM7")
+        println("Los numero menores a 7 son: $acumMe7") 
+}
