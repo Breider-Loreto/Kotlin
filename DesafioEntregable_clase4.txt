@@ -1,0 +1,19 @@
+fun main() {
+    var num = 4
+    if (num == 1)
+    	println("Es Domingo")
+    else if (num == 2)
+    	println("Es Lunes")
+    else if (num == 3)
+    	println("Es martes")
+    else if (num == 4)
+    	println("Es miercoles")
+    else if (num == 5)
+    	println("Es Jueves")
+    else if (num == 6)
+    	println("Es viernes ")
+    else if (num == 7)    
+    	println("Es Sabado")
+    else
+    	println("Ingreso un numero invalido") 
+}
