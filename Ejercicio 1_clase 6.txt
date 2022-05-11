@@ -1,0 +1,9 @@
+val nombre = "Breider"
+val apellido = "Loreto"
+fun saludo() {
+   println("¡Hola $nombre $apellido!")
+}
+
+fun main(args: Array<String>) {
+   saludo()
+}
